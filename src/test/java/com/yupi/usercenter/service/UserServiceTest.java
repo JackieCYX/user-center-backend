@@ -39,7 +39,7 @@ class UserServiceTest {
         String userAccount = "Kallin.chen";
         String userPassword = "123456";
         String checkPassword = "123456";
-        long result = userService.userRegister(userAccount, userPassword, checkPassword);
+        long result = userService.userRegister(userAccount, userPassword, checkPassword, "234");
 
     }
 }
