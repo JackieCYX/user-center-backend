@@ -25,7 +25,7 @@ import static com.yupi.usercenter.constant.UserConstant.USER_LOGIN_STATE;
  * 用户接口
  */
 @RestController
-@RequestMapping("/api/user")
+@RequestMapping("/user")
 public class UserController {
 
     @Resource
