@@ -10,3 +10,5 @@ spring:
     timeout: 86400
 server:
   address: 0.0.0.0
+  servlet:
+    context-path: /api
