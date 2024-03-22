@@ -9,16 +9,26 @@ spring:
     url: jdbc:mysql://localhost:3306/yupi
     username: root
     password: 123456
-  # session 失效时间
+  # session 失效时间（分钟）
   session:
     timeout: 86400
+    store-type: redis
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
+  # redis 配置
+  redis:
+    port: 6379
+    host: user.kallinchen.cn
+    database: 0
+    password:
 server:
   port: 8080
   servlet:
     context-path: /api
+    session:
+      cookie:
+        domain: localhost
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: false
