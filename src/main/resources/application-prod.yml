@@ -22,4 +22,4 @@ server:
     context-path: /api
     session:
       cookie:
-        domain: kallinchen.cn
+        domain: xxxxxx.xx
