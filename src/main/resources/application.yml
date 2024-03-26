@@ -21,7 +21,7 @@ spring:
     port: 6379
     host: user.kallinchen.cn
     database: 0
-    password:
+    password: 19990924
 server:
   port: 8080
   servlet:
