@@ -4,7 +4,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: 'jdbc:mysql://user.kallinchen.cn:3306/user_center?useSSL=false&allowPublicKeyRetrieval=true'
     username: root
-    password: root
+    password: Cyx990924+-408
   # session 失效时间
   session:
     timeout: 86400

@@ -65,7 +65,7 @@ public class InsertUsers {
         int batchSize = 5000;
         int j = 0;
         List<CompletableFuture<Void>> futureList = new ArrayList<>();
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 100; i++) {
             List<User> userList = new ArrayList<>();
             while (true) {
                 j++;
