@@ -4,22 +4,22 @@ spring:
   # DataSource Config
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: 'jdbc:mysql://user.kallinchen.cn:3306/user_center?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC'
+    url: 'jdbc:mysql://xxxxxxxxxxxxxx/user_center?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC'
     username: root
-    password: Cyx990924+-408
+    password: xxxxxxxxxxxx
   # session 失效时间
   session:
     timeout: 86400
     store-type: redis
   redis:
     port: 6379
-    host: user.kallinchen.cn
+    host: xxxxxxx
     database: 0
-    password: 19990924
+    password: xxxxxxxxx
 server:
   address: 0.0.0.0
   servlet:
     context-path: /api
     session:
       cookie:
-        domain: localhost
+        domain: kallinchen.cn
